@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Mon Apr 25 16:10:28 2022
+# Process ID: 15320
+# Current directory: C:/_SamData/Vivado2022/Codes/VGA/VGA.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/_SamData/Vivado2022/Codes/VGA/VGA.sim/sim_1/behav/xsim/xsim.dir/VGA_Stripes_Sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/_SamData/Vivado2022/Codes/VGA/VGA.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/_SamData/Vivado2022/Codes/VGA/VGA.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/_SamData/Vivado2022/Codes/VGA/VGA.sim/sim_1/behav/xsim/xsim.dir/VGA_Stripes_Sim_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Sep 29 10:59:49 2024
+# Process ID: 19164
+# Current directory: E:/vivado/ALU/LYC/LYC.runs/synth_1
+# Command line: vivado.exe -log Lead2_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lead2_Top.tcl
+# Log file: E:/vivado/ALU/LYC/LYC.runs/synth_1/Lead2_Top.vds
+# Journal file: E:/vivado/ALU/LYC/LYC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Lead2_Top.tcl -notrace

@@ -1,0 +1,10 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/vivado/Bin2Gray/Bin2Gray.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/vivado/Bin2Gray/Bin2Gray.srcs/sim_1/new/Bin2Gray_sim.sv,1728730898,systemVerilog,,,,Bin2Gray_sim,,,,,,,,
+E:/vivado/Bin2Gray/Bin2Gray.srcs/sources_1/new/Bin2Gray.sv,1728724074,systemVerilog,,E:/vivado/Bin2Gray/Bin2Gray.srcs/sources_1/new/Bin7Seg.sv,,Bin2Gray,,,,,,,,
+E:/vivado/Bin2Gray/Bin2Gray.srcs/sources_1/new/Bin7Seg.sv,1728703969,systemVerilog,,E:/vivado/Bin2Gray/Bin2Gray.srcs/sources_1/new/decoder_74LS138.sv,,Bin7Seg,,,,,,,,
+E:/vivado/Bin2Gray/Bin2Gray.srcs/sources_1/new/decoder_74LS138.sv,1727668037,systemVerilog,,E:/vivado/Bin2Gray/Bin2Gray.srcs/sources_1/new/x7seg.sv,,decoder_74LS138,,,,,,,,
+E:/vivado/Bin2Gray/Bin2Gray.srcs/sources_1/new/x7seg.sv,1728703940,systemVerilog,,E:/vivado/Bin2Gray/Bin2Gray.srcs/sim_1/new/Bin2Gray_sim.sv,,x7seg,,,,,,,,

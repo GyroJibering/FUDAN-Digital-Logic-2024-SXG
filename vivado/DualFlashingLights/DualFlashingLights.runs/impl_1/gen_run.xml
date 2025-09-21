@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1729061406">
+  <File Type="BITSTR-BMM" Name="DualFlashingLights_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="DualFlashingLights_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="DualFlashingLights_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="DualFlashingLights_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="DualFlashingLights.tcl"/>
+  <File Type="OPT-TIMING" Name="DualFlashingLights_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="DualFlashingLights_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="DualFlashingLights_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="DualFlashingLights_reports.tcl"/>
+  <File Type="OPT-DRC" Name="DualFlashingLights_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="DualFlashingLights.hwdef"/>
+  <File Type="PWROPT-DCP" Name="DualFlashingLights_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="DualFlashingLights_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="DualFlashingLights_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="DualFlashingLights_placed.dcp"/>
+  <File Type="PLACE-IO" Name="DualFlashingLights_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="DualFlashingLights_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="DualFlashingLights_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="DualFlashingLights_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="DualFlashingLights_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="DualFlashingLights_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="DualFlashingLights_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="DualFlashingLights_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="DualFlashingLights_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="DualFlashingLights.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="DualFlashingLights_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="DualFlashingLights_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="DualFlashingLights_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="DualFlashingLights.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="DualFlashingLights_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="DualFlashingLights_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="DualFlashingLights_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="DualFlashingLights_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="DualFlashingLights_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="DualFlashingLights_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="DualFlashingLights_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="DualFlashingLights.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="DualFlashingLights_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="DualFlashingLights_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="DualFlashingLights_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="DualFlashingLights_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="DualFlashingLights_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="DualFlashingLights_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="DualFlashingLights_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="DualFlashingLights_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="DualFlashingLights_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="DualFlashingLights_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="DualFlashingLights_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="DualFlashingLights_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="DualFlashingLights_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="DualFlashingLights_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="DualFlashingLights_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="DualFlashingLights_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="DualFlashingLights_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="DualFlashingLights_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="DualFlashingLights_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="DualFlashingLights_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="DualFlashingLights_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="DualFlashingLights.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="DualFlashingLights_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="DualFlashingLights.rbt"/>
+  <File Type="BITSTR-NKY" Name="DualFlashingLights.nky"/>
+  <File Type="PDI-FILE" Name="DualFlashingLights.pdi"/>
+  <File Type="RCFI_FILE" Name="DualFlashingLights.rcfi"/>
+  <File Type="CFI_FILE" Name="DualFlashingLights.cfi"/>
+  <File Type="RNPI_FILE" Name="DualFlashingLights.rnpi"/>
+  <File Type="NPI_FILE" Name="DualFlashingLights.npi"/>
+  <File Type="RBD_FILE" Name="DualFlashingLights.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="DualFlashingLights.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="DualFlashingLights.sysdef"/>
+  <File Type="BG-BGN" Name="DualFlashingLights.bgn"/>
+  <File Type="BG-DRC" Name="DualFlashingLights.drc"/>
+  <File Type="RDI-RDI" Name="DualFlashingLights.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ClockDivider.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/D_FF.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DualFlashingLights.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="DualFlashingLights"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../FlipFlop/FlipFlop.srcs/constrs_1/imports/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

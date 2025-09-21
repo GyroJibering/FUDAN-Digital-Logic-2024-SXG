@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/vivado/ALU/ALU/ALU.srcs/sources_1/imports/new/ALU4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/vivado/ALU/ALU/ALU.srcs/sources_1/new/ALU_1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/vivado/ALU/ALU/ALU.srcs/sources_1/new/ALU_2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/vivado/ALU/ALU/ALU.srcs/sim_1/new/ALU4_Sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU4_Sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/ALU/ALU/ALU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

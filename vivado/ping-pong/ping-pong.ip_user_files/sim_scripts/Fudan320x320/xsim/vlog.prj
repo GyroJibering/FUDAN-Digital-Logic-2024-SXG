@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../ping-pong.srcs/sources_1/ip/Fudan320x320/sim/Fudan320x320.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

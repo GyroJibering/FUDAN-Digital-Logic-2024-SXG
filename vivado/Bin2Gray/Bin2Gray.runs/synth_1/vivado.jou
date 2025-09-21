@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Oct 12 11:52:08 2024
+# Process ID: 21328
+# Current directory: E:/vivado/Bin2Gray/Bin2Gray.runs/synth_1
+# Command line: vivado.exe -log Bin2Gray_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Bin2Gray_2.tcl
+# Log file: E:/vivado/Bin2Gray/Bin2Gray.runs/synth_1/Bin2Gray_2.vds
+# Journal file: E:/vivado/Bin2Gray/Bin2Gray.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Bin2Gray_2.tcl -notrace

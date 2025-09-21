@@ -1,0 +1,25 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto ad98c3c565c44e17a8eb363fd2cd8a67 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Clock60_Sim_behav xil_defaultlib.Clock60_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'LD_n' [C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/Clock60.sv:16]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'P' [C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/Clock60.sv:17]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'D3' [C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/Clock60.sv:19]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'LD_n' [C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/Clock60.sv:26]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'P' [C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/Clock60.sv:27]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'T' [C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/Clock60.sv:28]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'D3' [C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/Clock60.sv:29]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/Clock60.sv" Line 2. Module Clock60 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/_74LS161.sv" Line 2. Module _74LS161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/_SamData/Vivado2022/Codes/Clock60/Clock60.srcs/sources_1/new/_74LS161.sv" Line 2. Module _74LS161 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib._74LS161
+Compiling module xil_defaultlib.Clock60
+Compiling module xil_defaultlib.Clock60_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Clock60_Sim_behav

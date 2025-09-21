@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1732963691">
+  <File Type="BITSTR-BMM" Name="pingpong_screen_pic_Top_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="pingpong_screen_pic_Top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="pingpong_screen_pic_Top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="pingpong_screen_pic_Top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="pingpong_screen_pic_Top.tcl"/>
+  <File Type="OPT-TIMING" Name="pingpong_screen_pic_Top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="pingpong_screen_pic_Top_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="pingpong_screen_pic_Top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="pingpong_screen_pic_Top_reports.tcl"/>
+  <File Type="OPT-DRC" Name="pingpong_screen_pic_Top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="pingpong_screen_pic_Top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="pingpong_screen_pic_Top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="pingpong_screen_pic_Top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="pingpong_screen_pic_Top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="pingpong_screen_pic_Top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="pingpong_screen_pic_Top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="pingpong_screen_pic_Top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="pingpong_screen_pic_Top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="pingpong_screen_pic_Top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="pingpong_screen_pic_Top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="pingpong_screen_pic_Top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pingpong_screen_pic_Top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="pingpong_screen_pic_Top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pingpong_screen_pic_Top_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="pingpong_screen_pic_Top.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="pingpong_screen_pic_Top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="pingpong_screen_pic_Top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="pingpong_screen_pic_Top_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="pingpong_screen_pic_Top.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="pingpong_screen_pic_Top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pingpong_screen_pic_Top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="pingpong_screen_pic_Top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pingpong_screen_pic_Top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="pingpong_screen_pic_Top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="pingpong_screen_pic_Top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="pingpong_screen_pic_Top_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="pingpong_screen_pic_Top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="pingpong_screen_pic_Top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="pingpong_screen_pic_Top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="pingpong_screen_pic_Top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="pingpong_screen_pic_Top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="pingpong_screen_pic_Top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="pingpong_screen_pic_Top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="pingpong_screen_pic_Top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="pingpong_screen_pic_Top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="pingpong_screen_pic_Top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="pingpong_screen_pic_Top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="pingpong_screen_pic_Top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="pingpong_screen_pic_Top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="pingpong_screen_pic_Top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="pingpong_screen_pic_Top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pingpong_screen_pic_Top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pingpong_screen_pic_Top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="pingpong_screen_pic_Top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="pingpong_screen_pic_Top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="pingpong_screen_pic_Top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="pingpong_screen_pic_Top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="pingpong_screen_pic_Top_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="pingpong_screen_pic_Top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="pingpong_screen_pic_Top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="pingpong_screen_pic_Top.rbt"/>
+  <File Type="BITSTR-NKY" Name="pingpong_screen_pic_Top.nky"/>
+  <File Type="PDI-FILE" Name="pingpong_screen_pic_Top.pdi"/>
+  <File Type="RCFI_FILE" Name="pingpong_screen_pic_Top.rcfi"/>
+  <File Type="CFI_FILE" Name="pingpong_screen_pic_Top.cfi"/>
+  <File Type="RNPI_FILE" Name="pingpong_screen_pic_Top.rnpi"/>
+  <File Type="NPI_FILE" Name="pingpong_screen_pic_Top.npi"/>
+  <File Type="RBD_FILE" Name="pingpong_screen_pic_Top.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="pingpong_screen_pic_Top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="pingpong_screen_pic_Top.sysdef"/>
+  <File Type="BG-BGN" Name="pingpong_screen_pic_Top.bgn"/>
+  <File Type="BG-DRC" Name="pingpong_screen_pic_Top.drc"/>
+  <File Type="RDI-RDI" Name="pingpong_screen_pic_Top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA640x480.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VGA/VGA.srcs/sources_1/new/VGA640x480.sv"/>
+        <Attr Name="ImportTime" Val="1643011714"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk60Hz.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/clkDiv.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VGA/VGA.srcs/sources_1/new/clkDiv.sv"/>
+        <Attr Name="ImportTime" Val="1642599644"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_screen_pic.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_screen_pic_Top.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/clk2MHz.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../buzzer/buzzer.srcs/sources_1/new/clk2MHz.sv"/>
+        <Attr Name="ImportTime" Val="1643444824"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/music.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_screen_textBig.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_text_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_screen_text.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_music_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ping-pong_screen.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpog_screen_move.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_screen_move_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_screen_stillR.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpog_screen_still_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpog_screen_still.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pingpong_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/FudanGray.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SuperMario.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/ASCII.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pingpong_screen_pic_Top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/VGA/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1642238212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Fudan320x320"/>
+</GenRun>

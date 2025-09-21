@@ -1,0 +1,10 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Time = 0 | SW = 0000 | G = 0000 | A2G = 1 | AN = 1 | LED = 0 | DP = 1
+Time = 10000 | SW = 1000 | G = 1100 | A2G = 1 | AN = 1 | LED = 0 | DP = 1
+Time = 20000 | SW = 1100 | G = 1010 | A2G = 1 | AN = 1 | LED = 0 | DP = 1
+Time = 30000 | SW = 0000 | G = 0000 | A2G = 1 | AN = 1 | LED = 0 | DP = 1
+Time = 40000 | SW = 1000 | G = 1100 | A2G = 1 | AN = 1 | LED = 0 | DP = 1
+Time = 50000 | SW = 0000 | G = 0000 | A2G = 1 | AN = 1 | LED = 0 | DP = 1
+Time = 60000 | SW = 1000 | G = 1100 | A2G = 1 | AN = 1 | LED = 0 | DP = 1
+$finish called at time : 160 ns : File "E:/vivado/Bin2Gray/Bin2Gray.srcs/sim_1/new/Bin2Gray_sim.sv" Line 44

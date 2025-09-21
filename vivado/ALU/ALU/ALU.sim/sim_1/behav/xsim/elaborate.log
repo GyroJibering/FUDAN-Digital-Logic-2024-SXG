@@ -1,0 +1,11 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto e34a2f3a3f8d4d5ca1def280dc30c033 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU4_Sim_behav xil_defaultlib.ALU4_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'CLK100MHZ' [E:/vivado/ALU/ALU/ALU.srcs/sim_1/new/ALU4_Sim.sv:7]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clr' [E:/vivado/ALU/ALU/ALU.srcs/sources_1/imports/new/ALU4.sv:18]
+ERROR: [VRFC 10-2922] 'ALU4' expects 6 arguments [E:/vivado/ALU/ALU/ALU.srcs/sim_1/new/ALU4_Sim.sv:7]
+WARNING: [VRFC 10-3823] variable 'b' might have multiple concurrent drivers [E:/vivado/ALU/ALU/ALU.srcs/sim_1/new/ALU4_Sim.sv:9]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Dec  3 10:24:51 2023
+# Process ID: 11004
+# Current directory: C:/2023Sam/Vivado2022/Codes/ping-pongText
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17884 C:\2023Sam\Vivado2022\Codes\ping-pongText\ping-pong.xpr
+# Log file: C:/2023Sam/Vivado2022/Codes/ping-pongText/vivado.log
+# Journal file: C:/2023Sam/Vivado2022/Codes/ping-pongText\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.xpr
+INFO: [Project 1-313] Project file moved from 'C:/_SamData/Vivado2022/Codes/ping-pong' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/2023Sam/Vivado2022/Codes/ping-pongText/SuperMario.coe', nor could it be found using path 'C:/_SamData/Vivado2022/Codes/ping-pong/SuperMario.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 899.496 ; gain = 197.168
+update_compile_order -fileset sources_1
+set_property top pingpong_text_Top [current_fileset]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_music_Top.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_music_Top.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_music_Top.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_Top.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_Top.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_Top.sv
+import_files
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'ASCII_ROM'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'ASCII_ROM'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Fudan320x320'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Fudan320x320'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'SuperMario'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'SuperMario'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/2023Sam/Vivado2022/Codes/ping-pongText/SuperMario.coe
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+3822
+ERROR: [IP_Flow 19-883] Failed to create TCL scope '::ipgui_ASCII_ROM' for IP GUI
+ERROR: [IP_Flow 19-3428] Failed to create Customization object ASCII_ROM
+import_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1060.055 ; gain = 0.000
+INFO: [Common 17-344] 'import_files' was cancelled
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_pic_Top.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_pic_Top.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_pic_Top.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_move_Top.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_move_Top.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_move_Top.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_still_Top.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_still_Top.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_still_Top.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_text.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_text.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_text.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/music_Top.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/music_Top.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/music_Top.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_stillR.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_stillR.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_stillR.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_still.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_still.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_still.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_pic.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_pic.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpong_screen_pic.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_move.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_move.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/pingpog_screen_move.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/ping-pong_screen.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/ping-pong_screen.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/ping-pong_screen.sv
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/music.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/music.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/new/music.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/imports/new/clk2MHz.sv] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/imports/new/clk2MHz.sv
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/imports/new/clk2MHz.sv
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/ip/SuperMario/SuperMario.xci] -no_script -reset -force -quiet
+remove_files  -fileset SuperMario C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/ip/SuperMario/SuperMario.xci
+INFO: [Project 1-386] Moving file 'C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/ip/SuperMario/SuperMario.xci' from fileset 'SuperMario' to fileset 'sources_1'.
+file delete -force C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.srcs/sources_1/ip/SuperMario
+export_ip_user_files -of_objects  [get_files C:/2023Sam/Vivado2022/Codes/ping-pongText/SuperMario.coe] -no_script -reset -force -quiet
+remove_files  C:/2023Sam/Vivado2022/Codes/ping-pongText/SuperMario.coe
+reset_run synth_1
+reset_run Fudan320x320_synth_1
+reset_run ASCII_ROM_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Fudan320x320'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ASCII_ROM'...
+[Sun Dec  3 10:34:55 2023] Launched Fudan320x320_synth_1, ASCII_ROM_synth_1, synth_1...
+Run output will be captured here:
+Fudan320x320_synth_1: C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.runs/Fudan320x320_synth_1/runme.log
+ASCII_ROM_synth_1: C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.runs/ASCII_ROM_synth_1/runme.log
+synth_1: C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.runs/synth_1/runme.log
+[Sun Dec  3 10:34:56 2023] Launched impl_1...
+Run output will be captured here: C:/2023Sam/Vivado2022/Codes/ping-pongText/ping-pong.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:01:42 ; elapsed = 00:01:42 . Memory (MB): peak = 1079.719 ; gain = 1.637
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  3 10:40:26 2023...

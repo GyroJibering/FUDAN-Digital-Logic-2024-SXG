@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Bin2Gray.srcs/sources_1/new/Bin2Gray.sv" \
+"../../../../Bin2Gray.srcs/sources_1/new/Bin7Seg.sv" \
+"../../../../Bin2Gray.srcs/sources_1/new/decoder_74LS138.sv" \
+"../../../../Bin2Gray.srcs/sources_1/new/x7seg.sv" \
+"../../../../Bin2Gray.srcs/sim_1/new/Bin2Gray_sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

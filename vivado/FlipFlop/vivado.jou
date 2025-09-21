@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Oct 15 22:53:59 2024
+# Process ID: 1864
+# Current directory: C:/Users/Gyro/Desktop/study/新大二上/数字逻辑/实验/FlipFlop/FlipFlop
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13668 C:\Users\Gyro\Desktop\study\新大二上\数字逻辑\实验\FlipFlop\FlipFlop\FlipFlop.xpr
+# Log file: C:/Users/Gyro/Desktop/study/新大二上/数字逻辑/实验/FlipFlop/FlipFlop/vivado.log
+# Journal file: C:/Users/Gyro/Desktop/study/新大二上/数字逻辑/实验/FlipFlop/FlipFlop\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Gyro/Desktop/study/新大二上/数字逻辑/实验/FlipFlop/FlipFlop/FlipFlop.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1

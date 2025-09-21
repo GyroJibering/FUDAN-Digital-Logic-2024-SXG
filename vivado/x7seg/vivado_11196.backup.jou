@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Sep 10 11:05:30 2022
+# Process ID: 11196
+# Current directory: C:/_SamData/Vivado2022/Codes/x7seg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15708 C:\_SamData\Vivado2022\Codes\x7seg\x7seg.xpr
+# Log file: C:/_SamData/Vivado2022/Codes/x7seg/vivado.log
+# Journal file: C:/_SamData/Vivado2022/Codes/x7seg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/_SamData/Vivado2022/Codes/x7seg/x7seg.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/_SamData/Vivado2022/Codes/x7seg/x7seg.runs/impl_1/x7seg_Top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/_SamData/Vivado2022/Codes/x7seg/x7seg.runs/impl_1/x7seg_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

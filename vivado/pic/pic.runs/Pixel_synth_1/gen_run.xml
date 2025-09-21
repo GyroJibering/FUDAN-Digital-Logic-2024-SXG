@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="Pixel_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1733582971">
+  <File Type="PA-TCL" Name="Pixel.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Pixel_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Pixel_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Pixel.vds"/>
+  <File Type="RDS-UTIL" Name="Pixel_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Pixel_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Pixel.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Pixel_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Pixel_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Pixel">
+    <File Path="$PSRCDIR/sources_1/ip/Pixel_1/Pixel.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Pixel"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Pixel">
+    <File Path="$PSRCDIR/sources_1/ip/Pixel_1/Pixel.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Pixel"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

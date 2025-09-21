@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Sep  9 19:17:59 2024
+# Process ID: 22232
+# Current directory: E:/vivado/x7seg/x7seg.runs/synth_1
+# Command line: vivado.exe -log x7seg_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source x7seg_Top.tcl
+# Log file: E:/vivado/x7seg/x7seg.runs/synth_1/x7seg_Top.vds
+# Journal file: E:/vivado/x7seg/x7seg.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source x7seg_Top.tcl -notrace

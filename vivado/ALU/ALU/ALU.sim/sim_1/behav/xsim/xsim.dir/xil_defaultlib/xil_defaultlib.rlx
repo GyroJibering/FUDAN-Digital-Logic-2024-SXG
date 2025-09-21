@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/vivado/ALU/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1726282475,verilog,,,,glbl,,,,,,,,
+E:/vivado/ALU/ALU/ALU.srcs/sim_1/new/ALU4_Sim.sv,1726282476,systemVerilog,,,,ALU4_Sim,,,,,,,,
+E:/vivado/ALU/ALU/ALU.srcs/sources_1/imports/new/ALU4.sv,1727004505,systemVerilog,,E:/vivado/ALU/ALU/ALU.srcs/sources_1/new/ALU_1.sv,,ALU4,,,,,,,,
+E:/vivado/ALU/ALU/ALU.srcs/sources_1/new/ALU_1.sv,1726745747,systemVerilog,,E:/vivado/ALU/ALU/ALU.srcs/sources_1/new/ALU_2.sv,,ALU_1,,,,,,,,
+E:/vivado/ALU/ALU/ALU.srcs/sources_1/new/ALU_2.sv,1726743789,systemVerilog,,E:/vivado/ALU/ALU/ALU.srcs/sim_1/new/ALU4_Sim.sv,,ALU_2,,,,,,,,

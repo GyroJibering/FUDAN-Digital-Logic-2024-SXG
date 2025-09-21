@@ -1,0 +1,9 @@
+0.6
+2019.2
+Dec  5 2019
+05:06:03
+C:/_SamData/Vivado2022/Codes/VGA/VGA.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sim_1/new/VGA_Stripes_Sim.sv,1644888279,systemVerilog,,,,VGA_Stripes_Sim,,,../../../../VGA.srcs/sources_1/ip/Clk25MHz,,,,,
+C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/VGA640x480.sv,1644746389,systemVerilog,,C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes.sv,,VGA640x480,,,../../../../VGA.srcs/sources_1/ip/Clk25MHz,,,,,
+C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes.sv,1644745801,systemVerilog,,C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/clkDiv.sv,,VGA_Stripes,,,../../../../VGA.srcs/sources_1/ip/Clk25MHz,,,,,
+C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/clkDiv.sv,1642599644,systemVerilog,,C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sim_1/new/VGA_Stripes_Sim.sv,,clkDiv,,,../../../../VGA.srcs/sources_1/ip/Clk25MHz,,,,,

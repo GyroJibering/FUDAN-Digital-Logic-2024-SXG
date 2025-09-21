@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Nov 13 11:36:25 2023
+# Process ID: 2828
+# Current directory: C:/2023Sam/Vivado2022/Codes/FSM/FSM.runs/impl_1
+# Command line: vivado.exe -log DetectSequence_Top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source DetectSequence_Top.tcl -notrace
+# Log file: C:/2023Sam/Vivado2022/Codes/FSM/FSM.runs/impl_1/DetectSequence_Top.vdi
+# Journal file: C:/2023Sam/Vivado2022/Codes/FSM/FSM.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source DetectSequence_Top.tcl -notrace
